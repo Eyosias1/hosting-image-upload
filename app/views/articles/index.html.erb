@@ -2,6 +2,10 @@
 
 <h1>Articles</h1>
 
+<%= cl_image_tag("ueysabuy5bumgu5geof1",
+      width: 400, height: 300, crop: :fill) %>
+
+
 <div id="articles">
   <% @articles.each do |article| %>
     <%= render article %>
